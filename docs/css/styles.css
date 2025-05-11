@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:  hsl(0, 0%, 8%);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+
+div{
+    background-color: hsl(0, 0%, 12%);
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+img{
+    border-radius: 60%;
+    width: 80px;
+    display: block;
+    margin: 30px auto;
+}
+
+
+.first{
+    color: hsl(75, 94%, 57%);
+    padding-top: 0.3rem;
+    font-size: 14px;
+}
+.second{
+    color: hsla(0, 0%, 100%, 0.623);
+    padding-top: 1.5rem;
+    padding-bottom: 0.8rem;
+    font-size: 12px;
+}
+
+
+
+button{
+    display: block;
+    width: 250px;
+    padding: 0.6rem;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    border-radius: 6px;
+    margin: 10px;
+    border: none;
+    font-size: 13px;
+}
+button:hover{
+   background-color:hsl(75, 94%, 57%) ;
+   color: #000;
+}
+.b{
+    margin-bottom: 1.7rem;
+}
+
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    margin-top: 5px;
+ }
+.attribution a { 
+    color: hsl(75, 94%, 57%) ;
+    text-decoration: none; 
+}
+a:hover{
+    text-decoration: underline;
+}
